@@ -14,7 +14,7 @@ Logger.getLogger("org").setLevel(Level.ERROR)
 val spark = SparkSession.builder().getOrCreate()
 
 // Carregando o dataset
-val data = spark.read.option("header","true").option("inferSchema","true").format("csv").load("dataset2.csv")
+val data = spark.read.option("header","true").option("inferSchema","true").format("csv").load("../dataset/dataset2.csv")
 
 // Print do Schema do dataframe
 data.printSchema()
