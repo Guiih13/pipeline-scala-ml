@@ -2,7 +2,7 @@ Machine Learning Pipeline in Scala Language
 
 1-Projeto
 
-Linear Regression with Spark and Scala
+Linear Regression with Spark and Scala <br>
 Classification with Spark and Scala
 
 
